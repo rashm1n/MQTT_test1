@@ -9,10 +9,6 @@ Weather master is a real time weather monitoring app made using Android Studio. 
 
 In this application eclipse's [Paho MQTT API](https://www.eclipse.org/paho/clients/python/docs/) is used create the MQTT client in Android Studio. It is a pretty straightforward process and a callback function is used to execute everytime the data is added to the MQTT broker.
 
-## Graphing
-
-For the graphing of data [MPAndroidChart Library](https://github.com/PhilJay/MPAndroidChart) is used cause it combines Android's Graph View with some excellent methods.  
-
 ## MQTT Broker
 As the MQTT broker , I used [CloudMQTT](https://www.cloudmqtt.com/) cause it provides a free easy to use service with a simple interface. You can easily find how to implement [Paho MQTT](https://www.eclipse.org/paho/clients/python/docs/) with CloudMQTT.
 
@@ -34,5 +30,4 @@ As the MQTT broker , I used [CloudMQTT](https://www.cloudmqtt.com/) cause it pro
 ## Application
 ![pic4](https://raw.githubusercontent.com/ravindurashmin/weather-master/master/result_images/splash.png)
 ![pic5](https://raw.githubusercontent.com/ravindurashmin/weather-master/master/result_images/home.png)
-![pic6](https://raw.githubusercontent.com/ravindurashmin/weather-master/master/result_images/graph.png)
 
